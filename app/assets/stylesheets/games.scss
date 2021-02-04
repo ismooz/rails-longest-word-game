@@ -1,0 +1,59 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: sans-serif;
+}
+
+button {
+  height: 34px;
+  padding: 0 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-left: -5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.container {
+  margin: 60px 60px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  background-color: rgb(30,100,190);
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+  font-size: 24px;
+  color: white;
+}
+
+.card:hover {
+  background-color: rgba(30,100,190,0.9);
+}
+
+.card:first-child {
+  margin-left: 0px;
+}
+
+.form-game {
+  width: 500px;
+  margin-top: 40px;
+}
+
+#input-word {
+  margin-top: 10px;
+  width: 80%;
+  height: 30px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
